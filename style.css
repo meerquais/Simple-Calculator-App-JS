@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: red; */
+    background: #007991;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.parent{
+    width: 30%;
+    /* height: 70%; */
+    margin: 50px auto;
+    box-shadow:1px 1px 2px 2px rgb(107, 106, 106);
+    border: 1px solid black;
+}
+
+.inputSec input{
+    width: 100%;
+    padding: 20px;
+}
+.hero_sec table{
+  width: 100%;
+  text-align: center;
+}
+.hero_sec table tr td{
+    padding: 20px;
+    box-shadow:1px 1px black;
+    background: rgb(139, 141, 140);
+}
+.hero_sec table tr td:hover{
+    cursor: pointer;
+}
+.heading{
+    margin: 50px auto;
+    text-align: center;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="heading">
+        <h1>Calculator</h1>
+    </div>
+    <div class="parent">
+        <div class="inputSec">
+            <input type="text" placeholder="Enter a number" id="number">
+        </div>
+        <div class="hero_sec">
+
+            <table border="1">
+                <tr>
+                    <td onclick="setNumber('+')">+</td>
+                    <td onclick="setNumber('-')">-</td>
+                    <td onclick="setNumber('*')">*</td>
+                    <td onclick="setNumber('/')">/</td>
+                </tr>
+                <tr>
+                    <td onclick="setNumber('9')">9</td>
+                    <td onclick="setNumber('8')">8</td>
+                    <td onclick="setNumber('7')">7</td>
+                    <td onclick="result()" rowspan="4">=</td>
+                </tr>
+                <tr>
+                    <td onclick="setNumber('6')">6</td>
+                    <td onclick="setNumber('5')">5</td>
+                    <td onclick="setNumber('4')">4</td>
+                </tr>
+                <tr>
+                    <td onclick="setNumber('3')">3</td>
+                    <td onclick="setNumber('2')">2</td>
+                    <td onclick="setNumber('1')">1</td>
+                </tr>
+                <tr>
+                    <td onclick="setNumber('0')">0</td>
+                    <td onclick="setNumber('00')">00</td>
+                    <td onclick="clearScreen('')">C</td>
+                </tr>
+            </table>
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+</body>
+
+<script src="app.js"></script>
+</html>
